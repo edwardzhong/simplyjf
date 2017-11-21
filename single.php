@@ -19,8 +19,8 @@ get_sidebar();?>
 			get_template_part( 'template-parts/content', get_post_format() );
 
 			the_post_navigation( array(
-            	'prev_text'                  => __( '&larr; %title' ),
-	            'next_text'                  => __( '%title &rarr;' ),
+            	'prev_text'                  => '&larr; %title' ,
+	            'next_text'                  => '%title &rarr;' ,
 	        ));
 
 			// If comments are open or we have at least one comment, load up the comment template.
